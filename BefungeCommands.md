@@ -8,7 +8,7 @@
 '|' - Logic branching - if top element of stack 0 - change IP move direction to right, otherwise - to left<br>
 '@' - End of program<br>
 IP also can 'wrap around'<br>
-('IP' - Instruction point)<br>
+('IP' - Instruction pointer)<br>
 <br>
       --- Push ---<br>  
 '0' - Push to stack **0**<br>
