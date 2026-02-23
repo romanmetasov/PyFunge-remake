@@ -1,6 +1,5 @@
 #!/usr/bin/python
 # Written by Cameron "Camdar" Wong
-# Remaked by "romanmetasov"
 
 import sys, random
 
