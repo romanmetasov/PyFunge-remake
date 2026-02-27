@@ -5,7 +5,7 @@
 '<' - Change IP moving direction to left<br>
 '#' - Jump over the next instruction<br>
 '\_' - Logic branching - if top element of stack 0 - change IP move direction to right, otherwise - to left<br>
-'|' - Logic branching - if top element of stack 0 - change IP move direction to right, otherwise - to left<br>
+'|' - Logic branching - if top element of stack 0 - change IP move direction to up, otherwise - to down<br>
 '@' - End of program<br>
 IP also can 'wrap around'<br>
 ('IP' - Instruction pointer)<br>
