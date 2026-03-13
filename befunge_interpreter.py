@@ -47,7 +47,7 @@ def befunge_mul(stack):
 def befunge_div(stack):
     b, a = safe_pop(stack), safe_pop(stack)
     if b == 0:
-        print("Error: Dividing by 0!")
+        print("Interpreter: Error: Dividing by 0!")
         exit()
     stack.append(a // b)
 
