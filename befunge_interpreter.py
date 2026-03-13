@@ -46,7 +46,10 @@ def befunge_mul(stack):
 @inst_wrapper('/')
 def befunge_div(stack):
     b, a = safe_pop(stack), safe_pop(stack)
-    stack.append(0 if b == 0 else a // b)
+    if b == 0:
+        print("Error: Dividing by 0!")
+        exit()
+    stack.append(a // b)
 
 @inst_wrapper('%')
 def befunge_mod(stack):
